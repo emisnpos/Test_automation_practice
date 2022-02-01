@@ -26,6 +26,11 @@ public class HomePage {
         return new KeyPressesPage(driver);
     }
 
+    public HorizontalSliderPage moveHorizontalSlider(){
+        clickLink("Horizontal Slider");
+        return new HorizontalSliderPage(driver);
+    }
+
     public DropdownPage clickDropDown(){
         clickLink("Dropdown");
         return new DropdownPage(driver);
