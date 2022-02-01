@@ -1,4 +1,4 @@
-package horizont_slider;
+package slider;
 
 import base.BaseTests;
 import org.openqa.selenium.Keys;
@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class HorizontalSliderTests extends BaseTests {
+public class SliderTests extends BaseTests {
 
 
     @Test
