@@ -23,14 +23,13 @@ public class BaseTests {
     private EventFiringWebDriver driver;
     protected HomePage homePage;
 
-
-
     @BeforeClass
     public void setUp(){
         System.setProperty("webdriver.chrome.driver","resources/chromedriver");
         driver = new EventFiringWebDriver(new ChromeDriver());
         driver.register(new EventReporter());
         goHome();
+        homePage = new HomePage(driver);
 
 //        driver.manage().window().maximize();
 //        driver.manage().window().fullscreen();  //fullscreen like f12
@@ -61,7 +60,7 @@ public class BaseTests {
 //        System.out.println(driver.getTitle());
 //        ----------------------------------------             chapter 4.1 ----------------------------------------------
 
-        homePage =    new HomePage(driver);
+
     }
 
     @BeforeMethod
