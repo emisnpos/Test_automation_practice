@@ -108,6 +108,12 @@ public class ParameterizedTests {
                         "cabbage", 7.8));
     }
 
+    @ParameterizedTest
+    @MethodSource(value = "ParamProvider#sourceStream_StringDouble")
+    void methodSource_StringDoubleStream(String param1, double param2) {
+        System.out.println("param1 = " + param1 + ", param2 = " + param2);
+    }
+
 
 
 }
