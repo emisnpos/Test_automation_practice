@@ -1,0 +1,5 @@
+name,price,quantity,unit_of_measure,provider
+tomato,1.5,2,kg,grocery_store
+carrot,3,5,kg,supermarket
+cabbage,1.2,10,kg,grocery_store
+beetroot,5,1,kg,supermarket

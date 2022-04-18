@@ -1,0 +1,5 @@
+name,price,quantity,unit_of_measure,provider
+orange,1.5,2,kg,grocery_store
+grape,3,5,kg,supermarket
+apple,1.2,10,kg,grocery_store
+pear,5,1,kg,supermarket
